@@ -34,7 +34,7 @@
  * @precision: field precision specified
  *
  * @h_modifier: on if h_modifier is specified
- * @l_modifier: on if l_modifier is specifies
+ * @l_modifier: on if l_modifier is specified
  *
  */
 typedef struct parameters
@@ -117,4 +117,3 @@ char *get_precision(char *p, params_t *params, va_list ap);
 int _printf(const char *format, ...);
 
 #endif
-/*the end of prototypes of functions used*/
